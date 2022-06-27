@@ -1,0 +1,32 @@
+############################## Contact #############################
+contact:
+  enable : true
+  title : Contact Us
+  subtitle : Contact Details
+  content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+
+  # Contact details
+  contact_list:
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      info : "Khaja Road, Bayzid, Chittagong, Bangladesh"
+      
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      info : "Phone: +880-31-000-000"
+      
+    - icon : ti-printer # themify icon pack : https://themify.me/themify-icons
+      info : "Fax: +880-31-000-000"
+      
+    - icon : ti-email # themify icon pack : https://themify.me/themify-icons
+      info : "Email: hello@meghna.com"
+
+
+  # Contact form
+  <div class="FooterWhatsapp"><a href="https://api.whatsapp.com/send?phone=905465292822&amp;text=Yardimci olur musunuz ?" target="_blank"><img alt="" src="https://www.zeybekorganik.com/whatsapp.png"> </a></div>
+  contact_form:
+    enable : true
+    form_action : "#" #contact form works with https://formspree.io
+    name : "Your Name"
+    email : "Your Email"
+    subject : "Subject"
+    message : "Message"
+    submit : "Submit"
